@@ -6,7 +6,7 @@ import { useContract, useContractRead, useContractWrite, useAddress } from "@thi
 //import { Link } from "react-router-dom";
 //import { walletAddress } from "../lib/constants/"
 //import { walletAddress } from "@/constants";
-import { walletAddress } from "@/pages/constant";
+import { walletAddress } from "@/components/constant";
 import { getProofForAddress } from "@/lib/whitelist";
 //import { getProofForAddress } from "../lib/whitelist"
 import Link from "next/link";

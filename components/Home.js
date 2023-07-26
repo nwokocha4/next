@@ -7,7 +7,8 @@ import { useNotification } from "web3uikit";
 import { useConnectionStatus, useAddress, useChainId } from "@thirdweb-dev/react";
 //import { walletAddress } from "../../constants";
 //import { walletAddress } from "@/constants";
-import { walletAddress } from "@/pages/constant";
+//import { walletAddress } from@/components/constantnt";
+import { walletAddress } from "./constant";
 
 export const Homes = () => {
     const [isShown, setIsshown] = useState(false);
