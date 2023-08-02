@@ -287,10 +287,10 @@ const generateTransaction = (transactionHash) => {
 
 
     return(
-        <div className="container max-w-screen-lg md:mx-auto">
-             <div className="h-fully rounded-md justify-center mb-5 text-center">
+        <div className="container md:w-screen rounded-lg bg-white max-w-screen-lg ">
+             <div className=" rounded-md p-3 justify-center text-center">
              <br/>
-             <br/>
+             
                     
                     <h1 className="font-black text-xl text-gray-950">Merakee Hive NFT Collection</h1>                                               
                     

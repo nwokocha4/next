@@ -128,21 +128,22 @@ export const Homes = () => {
     
 
     return(
-        <div className="h-screen place-items-center  bg-gradient-to-r from-indigo-800 to-pink-400 via-purple-800 ">
+       
            
-            <div className="grid sm:mx-auto content-end place-items-center h-screen">
-                <div className="pb-3">
+            <div className=" grid sm:mx-auto h-screen p-10 bg-gradient-to-r from-indigo-800 to-pink-400 via-purple-800 place-items-center">
+                <div className=" mt-10 md:mt-16">
             {isShown && (
                 
                 <MintContainer />
                 
             )}
             </div>
+            <div className="">
             <button onClick={handleClick} 
             type="button" 
-            class="text-white h-20 w-72 justify-self-auto bg-purple-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-2.5 mb-28 md:mb-20 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none font-black text-2xl dark:focus:ring-blue-800">MINT NOW</button>
-            
+            class="text-white h-20 w-72 bg-purple-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg mt-5  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none font-black text-2xl dark:focus:ring-blue-800">MINT NOW</button>
             </div>
-        </div>
+            </div>
+        
     )
 }
