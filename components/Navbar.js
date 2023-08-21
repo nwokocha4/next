@@ -84,7 +84,7 @@ function Navbar() {
 
                     <Link href="#home" scroll={false} className="flex items-center  sm:mb-0">
                     <Image src={merake} alt='mera' className="h-1o w-10 mr-3" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Merakee Hive</span>
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-indigo-100">Merakee Hive</span>
         </Link>
                         <div className="md:hidden">
                             <button

@@ -141,7 +141,7 @@ export const Homes = () => {
             <div className="">
             <button onClick={handleClick} 
             type="button" 
-            class="text-white h-20 w-72 bg-purple-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg mt-5  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none font-black text-2xl dark:focus:ring-blue-800">MINT NOW</button>
+            class="text-indigo-100 h-20 w-72 bg-purple-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg mt-5  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none font-black text-2xl dark:focus:ring-blue-800">MINT NOW</button>
             </div>
             </div>
         

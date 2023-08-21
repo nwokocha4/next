@@ -12,11 +12,11 @@ export const Details = () => {
             </div>
             <br/>
             <br/>
-            <div className=' text-blue-950 justify-center md:mt-10 text-center text-white'>
+            <div className=' text-indigo-200 justify-center md:mt-10 text-center text-white'>
                 <div className='lg:mr-12 sm:mt-7'>
-                <h1 className=' text-blue-950 font-black text-2xl '>Merakee Hive NFT: Mint Details</h1>
+                <h1 className=' text-indigo-200 font-black text-2xl '>Merakee Hive NFT: Mint Details</h1>
                 </div>
-                <div className=' text-blue-950 lg:mr-9 mt-8'>
+                <div className=' text-indigo-200 lg:mr-9 mt-8'>
                     <ul className='grid gap-3.5'>
                         <li>
                             <h1 className='font-bold text-xl'>Free Mint</h1>

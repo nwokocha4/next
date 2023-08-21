@@ -9,11 +9,11 @@ export const About = () => {
         <div className='h-full  bg-gradient-to-r from-indigo-800 to-pink-400 via-purple-800 md:flex sm:grid justify-between overflow- bl-4 p-10 py-6 sm:py-12'>
             
             <div className=' justify-center md:mt-16 md:ml-20 sm:ml-8 text-white '>
-                <div className=' text-gray-950 lg:mr-12 text-center'>
+                <div className=' text-indigo-200 lg:mr-12 text-center'>
                 <h1 className='font-black text-2xl md:text-center '>Merakee Hive NFT collection Intro</h1>
                 <p className='font-bold text-xl'>Merakee Hive NFT is an exclusive collection of <br /> 10,000 NFT masterpiece that enhanced the alpha boss spirit in you.   </p>
                 </div>
-                <div className=' text-gray-950 lg:mr-9 mt-8 text-center'>
+                <div className=' text-indigo-200 lg:mr-9 mt-8 text-center'>
                     <ul className='grid gap-5.5 '>
                         <li>
                             <h1 className='font-bold text-xl'>You Are The Boss</h1>

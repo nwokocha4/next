@@ -287,27 +287,27 @@ const generateTransaction = (transactionHash) => {
 
 
     return(
-        <div className="container md:w-screen rounded-lg bg-white max-w-screen-lg ">
+        <div className="container md:w-screen rounded-lg bg-indigo-100 max-w-screen-lg ">
              <div className=" rounded-md p-3 justify-center text-center">
              <br/>
              
                     
-                    <h1 className="font-black text-xl text-gray-950">Merakee Hive NFT Collection</h1>                                               
+                    <h1 className="font-black text-xl text-purple-950">Merakee Hive NFT Collection</h1>                                               
                     
                     <br/>
                   
-                    <h1 className="font-black text-gray-950 text-2xl">MINT is <span>
+                    <h1 className="font-black text-purple-950 text-2xl">MINT is <span>
                      {whitelistMintEnabled !== false  ? (<span className="h-5 w-13 bg-green-500 rounded-md ">Live</span>) : (<span className="h-5 w-10 bg-red-500">Not Live</span>)}
                      </span> 
                     </h1>
                     <br/>
                     
-                     <h1 className="font-black text-xl text-gray-950">Price: {realData} ETH</h1>
+                     <h1 className="font-black text-xl text-purple-950">Price: {realData} ETH</h1>
                     <br/>
-                    <h1 className="font-black text-xl text-gray-950 ">Max Mint per Wallet:<span> {_mintAmount} </span></h1>
+                    <h1 className="font-black text-xl text-purple-950 ">Max Mint per Wallet:<span> {_mintAmount} </span></h1>
                     
                     <br/>
-                    <h1 className="text-xl font-black text-gray-950"> {totalMinted} / {supply} MINTED</h1>
+                    <h1 className="text-xl font-black text-purple-950"> {totalMinted} / {supply} MINTED</h1>
                     <br/>
                     <button onClick={async () => { 
                       
